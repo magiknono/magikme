@@ -1,0 +1,22 @@
+Sur la branche master
+Modifications qui ne seront pas validées :
+  (utilisez "git add <fichier>..." pour mettre à jour ce qui sera validé)
+  (utilisez "git checkout -- <fichier>..." pour annuler les modifications dans la copie de travail)
+
+	modifié :         Gemfile
+	modifié :         Gemfile.lock
+	modifié :         app/models/user.rb
+	modifié :         config/environments/development.rb
+
+Fichiers non suivis:
+  (utilisez "git add <fichier>..." pour inclure dans ce qui sera validé)
+
+	app/mailers/application_mailer.rb
+	app/mailers/user_mailer.rb
+	app/views/layouts/mailer.html.erb
+	app/views/layouts/mailer.text.erb
+	app/views/user_mailer/
+	gst_mail_localhost.log
+	test/
+
+aucune modification n'a été ajoutée à la validation (utilisez "git add" ou "git commit -a")
