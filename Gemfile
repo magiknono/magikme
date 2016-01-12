@@ -14,6 +14,10 @@ gem 'materialize-sass'
 gem 'devise'
 gem 'toastr-rails'
 
+gem 'figaro'
+
+
+
 gem "letter_opener", group: :development
 
 group :development, :test do
