@@ -17,6 +17,8 @@ gem 'toastr-rails'
 gem 'figaro'
 
 
+gem 'omniauth-google-oauth2'
+
 
 gem "letter_opener", group: :development
 
