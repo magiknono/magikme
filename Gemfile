@@ -20,6 +20,7 @@ gem 'figaro'
 gem 'omniauth-google-oauth2'
 
 
+
 gem "letter_opener", group: :development
 
 group :development, :test do

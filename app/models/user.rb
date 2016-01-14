@@ -5,7 +5,8 @@ class User < ActiveRecord::Base
          :recoverable, :rememberable, :trackable, :validatable,
          :omniauthable, :omniauth_providers => [:google_oauth2]
 
-  validates :name, presence: true, length: {maximum: 25}
+  validates :first_name, presence: true, length: {maximum: 25}
+  validates :last_name, presence: true, length: {maximum: 25}
 
   after_create :send_welcome_email
 
@@ -20,8 +21,10 @@ class User < ActiveRecord::Base
     user = User.where(:email => data["email"]).first
 
      unless user
-         user = User.create(name: data["name"],
+         user = User.create(first_name: data["first_name"],
+            last_name: data["last_name"],
             email: data["email"],
+            image: data["image"],
             password: Devise.friendly_token[0,20]
          )
      end

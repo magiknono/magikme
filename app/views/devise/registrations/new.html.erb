@@ -10,7 +10,11 @@
       <%= render partial: "shared/devisesmes" %>
 
       <div class="input-field">
-        <%= f.text_field :name, autofocus: true, :class => "validate", :placeholder => "Name" %>
+        <%= f.text_field :first_name, autofocus: true, :class => "validate", :placeholder => "First Name" %>
+      </div>
+
+      <div class="input-field">
+        <%= f.text_field :last_name, autofocus: true, :class => "validate", :placeholder => "Last Name" %>
       </div>
 
       <div class="input-field">
