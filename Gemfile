@@ -22,7 +22,10 @@ gem 'omniauth-google-oauth2'
 gem 'activeadmin', github: 'activeadmin'
 gem 'active_skin'
 
-gem "letter_opener", group: :development
+gem 'aws-sdk', '< 2.0'
+gem "paperclip", "~> 4.3"
+
+
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
@@ -35,6 +38,7 @@ group :development do
 
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
+  gem "letter_opener"
 end
 
 group :production do
