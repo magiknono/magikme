@@ -19,6 +19,7 @@ gem 'figaro'
 
 gem 'omniauth-google-oauth2'
 
+gem 'activeadmin', github: 'activeadmin'
 
 
 gem "letter_opener", group: :development
