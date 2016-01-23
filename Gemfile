@@ -25,7 +25,8 @@ gem 'active_skin'
 gem 'aws-sdk', '< 2.0'
 gem "paperclip", "~> 4.3"
 
-
+gem 'redcarpet', '~> 3.2', '>= 3.2.3'
+gem 'coderay', '~> 1.1'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
